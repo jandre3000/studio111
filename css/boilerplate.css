@@ -1,0 +1,1325 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #FFFFFF;
+    float: left;
+    width: 100%;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #585858;
+    text-shadow: none;
+}
+
+::selection {
+    background: #585858;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    color: black;
+}
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a.top {
+position: relative;
+top:-100px;
+display: block;
+height: 0;
+width:0;
+}
+
+body{
+    position: relative
+}
+h1{ 
+    max-width:400px;
+    margin: 0 auto 1em auto;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align:center;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1.6em;
+    font-weight: normal;
+    padding-bottom:0.4em;
+}
+h3{
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: normal;
+    padding-bottom:0.4em;
+}
+
+article{
+    max-width:860px;
+}
+article p{
+
+    max-width: 33%;
+    
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    margin: 0 auto 0 auto;
+    padding: 1em 0 1.5em 0;
+}
+
+.article_header{
+    border-bottom: solid 2px #000000;
+    margin: 0 auto 1.5em auto;
+}
+
+figcaption{
+    text-indent: -9999px;
+}
+
+.scrollup{
+    z-index: 1;
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:1em;
+    left:50%;
+    margin-left: -30px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../img/up.png') no-repeat;
+    visibility: hidden;
+}
+
+img{
+    max-wdith: 100%;
+}
+
+
+/*===============HEADER================*/
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    background: #ffffff;
+    z-index: 2;
+}
+.main_nav{
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 0.9em;
+    display:block;
+    max-width:860px;
+    margin:1em auto 0 auto;
+}
+
+.main_nav ul{
+    list-style-type: none;
+    padding:0;
+    width:100%;
+    text-align: center;
+}
+
+.main_nav ul li{
+    text-transform: uppercase;
+    display:inline-block;
+    padding:0 1.8em 0 1.8em;
+}
+
+.main_nav a{
+    text-decoration: none;
+    color:#000000;
+    z-index: 0;
+}
+.main_nav a:hover{
+    color:#000000;
+}
+.main_nav ul li span{
+    display:block;
+    width:30px;
+    height:2px;
+    margin: 0 auto 0 auto;
+}
+
+.main_nav ul li:hover > span{
+    background-color: #000000;
+}
+
+.main_nav a:active{
+    color:#000000;
+}
+
+.top{
+    max-width:860px;
+    margin: 1em auto 0 auto;
+    padding:0;
+}
+
+.logo {
+    margin: 0 auto 0 auto;
+    width:100%;
+    background: url('../img/kreska_menu.png') repeat-x left bottom; 
+}
+.logo a{
+    width:172px;
+    display:block;
+    margin: 0 auto 0 auto;
+}
+
+
+#claim{
+text-transform: uppercase;
+font-weight: bold;
+display: none;
+}
+
+
+
+/*===============MANIFESTO================*/
+
+#manifesto{
+    margin: 6em auto 0 auto;
+}
+
+
+#manifesto figure{
+    max-width:300px;
+    max-height:280px;
+    margin: 0 auto 2em auto;
+}
+
+#manifesto figure img{
+    width:100%;
+}
+
+
+
+/*===============OFERTA================*/
+
+#oferta{
+    margin: 0 auto 10em auto;
+    padding-bottom: 5em;
+    background: url('../img/kreski.png') repeat-x left bottom; 
+}
+#oferta_mobile{
+    display: none;
+}
+
+#oferta_mobile img{
+    max-width: 100%;
+}
+
+#oferta p{
+    border-bottom: solid 3px #000000;
+    font-size: 1.5em;
+}
+
+#oferta ul{
+    font-family: arial, tahoma, sans-serif;
+    font-style: normal;
+    list-style: square;
+    max-width:300px;
+    padding:0;
+    margin:2em auto 5em auto;
+    list-style-image: url("../img/bullet.png");
+}
+#oferta ul li{
+    max-width:350px;
+    padding-bottom: 0.5em;
+}
+#oferta figure{
+    max-width:300px;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+#oferta #offer_arrow{
+position: absolute;
+width: auto;
+top: 90px;
+left: -22px;
+}
+
+#oferta figure img{
+    width:100%;
+}
+#hasla {
+    max-width:400px;
+    margin: 0 auto 0 auto;
+}
+
+/*===============PORTFOLIO================*/
+
+#portfolio{
+    margin: 0 auto 6em auto;
+}
+
+#portfolio ul{
+    list-style-type: none;
+    list-style-image: none;
+    padding:0;
+    margin:2em auto 5em auto;
+    float: left;
+width: 100%;
+}
+
+#portfolio ul li{
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1.8em;
+    width: 100%;
+    text-align: center;
+    padding:0;
+    margin:2em auto 1em auto;
+}
+
+#portfolio ul li{
+    margin:0.5em auto 0 auto;
+    width:100%;
+}
+
+#portfolio ul li:hover > span{
+width:100%;
+}
+
+#portfolio ul li span{
+    display:block;
+    height:2px;
+    width:1%;
+    background-color: #000000;
+    margin:0.5em auto 0 auto;
+    transition: width .9s;
+    -moz-transition: width .9s; /* Firefox 4 */
+    -webkit-transition: width .9s; /* Safari and Chrome */
+    -o-transition: width .9s; /* Opera */
+}
+
+#portfolio figure{
+    max-width:300px;
+    max-height:250px;
+    margin: 0 auto 2em auto;
+}
+#portfolio figure img{
+    width:100%;
+}
+
+
+.accordionButton {  
+    width:100%;
+    background: #ffffff;
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+    }
+    
+.accordionContent { 
+    float: left;
+    border-bottom: solid 2px #000000;
+}
+.accordionContent img{
+    height: auto !important;
+
+}
+.accordionButton.empty{
+    cursor: default;
+}
+
+#portfolio ul li.accordionButton.empty:hover span{
+    width: 1%;
+}
+
+#portfolio ul  li.accordionButton.on span{
+    width: 100%;
+}
+
+.projectClient{
+    width:40%;
+    display:inline-block;
+    float:left;
+    max-width: 100%;
+    text-align: left;
+    padding:0;
+    margin: 0;
+}
+.projectClient p{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 0.5em;
+    padding:0;
+    margin: 0;
+}
+.projectClient img{
+    display: block;
+    margin: 1em auto 0 auto;
+}
+
+.projectDescription{
+    width:52%;
+    display:inline-block;
+    float:right;
+}
+.projectDescription h1{
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1em;
+    text-align: left;
+    width:100%;
+    margin:0;
+    border-bottom: solid 1px #000000;
+}
+
+.projectDescription p, .projectDate{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 0.5em;
+    max-width: 100%;
+    text-align: left;
+    padding:0;
+    margin:1em auto 2em auto;
+}
+.projectDescription .projectDate {
+    border-bottom: solid 1px black;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    padding-bottom: 0.5em;
+    max-width: 400px;
+    margin-left: 0;
+}
+
+.close_project {
+    background: url(../img/close_project.png) no-repeat 0 0 transparent;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+}
+
+.close_project:hover{
+    opacity: 0.5;
+}
+.accordionContent img{
+    max-width:100%;
+    margin-bottom: 1em;
+}
+    
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on > div{
+width:100%;
+
+    background: #ffffff;
+    }
+    
+.over {
+    background: #ffffff;
+    }
+
+
+/*===============AKTUALNOSCI================*/
+
+#aktualnosci{
+    margin: 0 auto 5em auto;
+    border-bottom: solid 1px #000000;
+    clear: both;
+}
+.news {
+    min-height: 167px;
+}
+#aktualnosci1{
+    max-width:300px;
+    max-height:210px;
+    margin: 0 auto 2em auto;
+}
+#aktualnosci2{
+    border-top: solid 2px #000000;
+}
+#aktualnosci2 img{
+    display:block;
+    max-width:100%;
+    margin: 0 auto 0 auto;
+
+}
+#aktualnosci1 img{
+    width:100%;
+}
+
+.news{
+    margin: 0 auto 0em auto;
+    text-align: left;
+}
+
+.news p{
+    width:100%;
+    font-family: Arial,Tahoma, sans-serif;
+    font-size: 0.9em;
+    padding-bottom:0;
+}
+.news_titles .post{
+    width: 30%;
+    margin: 0;
+    margin-right: 1%;
+}
+.post {
+    width: 33%;
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.entry-title{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+}
+.entry-title:hover {
+    text-decoration: underline;
+}
+
+.entry-content {
+text-align: left;
+padding-top: 2em;
+padding-bottom: 3em;
+max-width: 33%;
+margin: 0 auto;
+overflow: visible;
+}
+.entry-content .entry-title{
+    max-width: none;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+.entry-content p{
+    width: 100%;
+    max-width: none;
+    font-style: normal;
+}
+
+.entry-content img{
+    max-width: 100%;
+    height: auto;
+}
+
+#news_nav_links{
+    margin-top: 0;
+    padding-bottom: 1em;
+    padding-top: 0;
+    border-bottom: 1px solid black;
+    height: 1.5em;
+}
+
+.news_nav_link {
+    display: inline;
+    max-width: 40%;
+}
+ 
+.news_nav_link a{
+    color: transparent;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 0 0 0 80px;
+    -webkit-transition: color 0.3s;
+}
+
+.news_nav_link a:hover{
+    color: black;
+}
+
+.news_titles p.post_date{
+    text-align: left;
+    max-width: none;
+    text-align: left;
+    max-width: none;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    font-style: normal;
+}
+.news_titles{
+    min-height: 125px;
+}
+
+.news_content{
+    border-top: 1px solid black;
+    position: relative;
+    top: 1px;
+}
+#older_posts_link{
+    float: left;
+    background: url(../img/prev_post_arrow.png) no-repeat left center transparent;
+    padding: 0;
+}
+
+#newer_posts_link{
+    float: right;
+    background: url(../img/next_post_arrow.png) no-repeat right center transparent;
+}
+
+#newer_posts_link a{
+    padding: 0 80px 0 0 ;
+}
+/*===============TEAM================*/
+
+#team{
+    max-width:860px;
+    margin: 0 auto 0 auto;
+    background-color: #FFFFFF;
+    overflow:hidden;
+}
+
+.team_member{
+    clear: both;
+}
+
+#team figure{
+    max-width:300px;
+    max-height:330px;
+    margin: 0 auto 4em auto;
+}
+#team figure img{
+    width:100%;
+}
+.team_thumb{
+    width:230px;
+    height:230px;
+    background: url('../img/team_thumb.png') no-repeat left top;
+    -moz-border-radius: 115px;
+    -webkit-border-radius: 115px;
+    border-radius: 115px;
+    float:left;
+}
+.team_description{
+    float:left;
+    margin-bottom:3em;
+}
+.team_description p{
+    max-width: 270px;
+}
+.team_who{
+    max-width: 270px;
+    float:left;
+    margin-left:2em;
+    margin-right:2em;
+}
+.team_who h2{
+    width:100%;
+    border-bottom: solid 1px #000000;
+}
+.team_who p{
+    width: 100%;
+    padding-top:0;
+    margin-top:0;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 1em;
+    max-width: none;
+    font-style: normal;
+}
+
+/*===============KONTAKT================*/
+
+#kontakt{
+    margin-bottom:0;
+    padding:7em 0 4em 0;
+    width:100%;
+    background: #000000 url('../img/kontakt_tlo.png') no-repeat top left;
+    background-size: 100% 80px;
+    color:#ffffff;
+    overflow:hidden;
+}
+
+#kontakt figure{
+    max-width:300px;
+    max-height:215px;
+    margin: 0 auto 2em auto;
+}
+#kontakt figure img{
+    width:100%;
+}
+
+#kontakt_stopka{
+    max-width:400px;
+    margin: 0 auto 4em auto;
+    text-align: center;
+}
+
+#kontakt_stopka h1{
+    font-style: italic;
+}
+#kontakt_stopka p{
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.kreseczka{
+    width:30px;
+    height:1px;
+    background-color: #ffffff;
+    margin: 0 auto 0 auto;
+}
+
+#kontakt a{
+    text-decoration:none;
+    color: #ffffff;
+}
+#kontakt a:hover{
+    text-decoration:none;
+    color: #585858;
+}
+
+#kontakt nav{
+    max-width:860px;
+    margin:0 auto 0 auto;
+}
+#kontakt nav ul{
+    max-width: 750px;
+    list-style-type: none;
+    padding:0;
+    margin:0 auto 0 auto;
+}
+#kontakt nav ul li{
+    height:5em;
+    display:inline-block;
+    float:left;
+    padding:1em 2em 0 2em;
+    border-right: solid 1px #ffffff;
+
+}
+
+#kontakt nav ul li:last-child{
+    border-right: none;
+}
+
+#kontakt nav ul li p{
+    font-size: 0.8em;
+    margin:0;
+}
+
+#facebook{
+    margin-top:1em;
+    display:block;
+    width: 80px;
+    height: 18px;
+    background: url("../img/facebook.png") no-repeat 0 0;
+}
+#facebook:hover{ 
+    background-position: 0px -18px;
+}
+
+
+/*===============ANIMATIONS================*/
+
+#oferta_animation{
+    position: relative;
+    min-height: 1500px;
+    padding-top: 0px;
+    width: 530px;
+    margin: 0 auto;
+    }
+    #oa_long_slant, #oa_square, #oa_finger, #oa_woman, #oa_trendy, .mask{
+        position: absolute;
+        overflow: hidden;
+    }
+    #oa_long_slant, #oa_square{
+        height: 160px;
+        width: 160px;
+        left: 95px;
+        top: 0;
+    }
+
+    #oa_square{
+        background-color: black;
+    }
+
+    #oa_finger{
+        right: 0px;
+        top: 684px;
+    }
+    #oa_woman{
+        top: 686px;
+        left: -8px;
+        height: 323px;
+    }
+        #oa_woman .mask{
+            opacity: 1;
+        }
+    #oa_trendy{
+        background-color: white;
+        left: 27px;
+        top: 1007px;
+        z-index: 1;
+        height: 0;
+    }
+    .mask{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;        
+        opacity: 0;
+    }
+
+/* ==========================================================================
+   Kurtyna
+   ========================================================================== */
+
+#kurtyna{
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-color: white;
+}
+#curtain_image{
+height: 221px;
+width: 80%;
+background: url('../img/studio111_intro.png') no-repeat center center white;
+background-size: contain;
+margin: 0 auto;
+margin-top: 40px;
+position: absolute;
+width: 100%;
+top: 20%;
+}
+#kurtyna .main_nav{
+position: relative;
+top: 20%;
+margin-top: 240px;
+}
+
+#curtain_container{
+    margin-top: 63%;
+}
+
+#kurtyna .main_nav.fixed_body{
+position: fixed;
+top: -199px;
+max-width: none;
+width: 100%;
+}
+
+#scroll_indicator{
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+    width: 65px;
+    text-align: center;
+}
+/*
+#scroll_down_arrow{
+    -webkit-transition:all 2.5s ;
+    -moz-transition:all 2.5s ;
+    -o-transition:all 2.5s ;
+    -ms-transition:all 2.5s ;
+    transition:all 2.5s ;
+}
+
+#scroll_down_arrow.rotate{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+#scroll_down_arrow.negative_rotate{
+    -webkit-transform:rotate(-360deg);
+    -moz-transform:rotate(-360deg);
+    -o-transform:rotate(-360deg);
+    -ms-transform:rotate(-360deg);
+    transform:rotate(-360deg);
+}
+*/
+#curtain_container.fixed_body{
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 946px) {
+  
+    article{
+        width:90%;
+        margin: 0 5% 0 5%;
+    }
+    .team_thumb{
+        margin: 0 auto 0 auto;
+        float:none;
+    }
+    .team_description{
+        float:none;
+    }
+    .team_who{
+        margin: 0 auto 0 auto;
+        float:none;
+    }
+    .top{
+        width:90%;
+        margin: 1em 5% 0 5%;
+    }
+    #kontakt nav{
+        width:90%;
+    }
+
+    #kontakt nav ul li{
+        border-right:none;
+        width:33%;
+        padding: 0;
+        padding-top:1em;
+        border-top: solid 1px #ffffff;
+    }
+    #kontakt nav ul li:last-child{
+        display:block;
+        width:100%;
+        padding:0;
+    }
+    #kontakt nav ul li:last-child a{
+        display:block;
+        margin: 2em auto 0 auto;
+    }
+    #kontakt nav ul li p{
+        display:block;
+        margin: 0 auto 0 auto;
+        text-align:center;
+    }
+    #kontakt figure{
+
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    #kurtyna{
+        display: none;
+    }
+    #offer_arrow {
+        display: none;
+    }
+    #curtain_container{
+        margin-top: 0;
+    }
+    article{
+        width:80%;
+        margin: 0 10% 0 10%;
+    }
+    article p{
+        max-width: none;
+    }
+
+    header{
+        position:relative;
+        width:90%;
+        margin:0 5% 0 5%;
+        top:0;
+        background: #ffffff;
+    }
+    header nav{
+        font-family: Arial, Tahoma, sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        display:block;
+        width:90%;
+        margin:1em auto 0 auto;
+    }
+
+    header nav ul{
+        list-style-type: none;
+        padding:0;
+        margin:0 auto 0 auto;
+    }
+    
+    .main_nav ul li {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0;
+    }
+
+    header nav ul li{
+        text-transform: uppercase;
+        display:inline-block;
+        width:100%;
+        padding:0;
+        margin-top:0.2em;
+    }
+
+    header nav ul li a{
+        display:block;
+        width:100%;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+
+    .top{
+        width:90%;
+        margin: 1em 5% 0 5%;
+        list-style-type: none;
+        padding:0;
+    }
+
+    .scrollup{
+    visibility: visible;
+    }
+
+    #claim{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto 0 auto;
+    }
+
+    #kontakt nav{
+        width:90%;
+        margin: 0 5% 0 5%;
+    }
+
+    #kontakt nav ul li{
+        width:100%;
+        display:block;
+        padding:0;
+        padding-top:2em;
+        border-right:none;
+        border-top: solid 1px #ffffff;
+    }
+
+    #kontakt nav ul li p{
+        display:block;
+        margin: 0 auto 0 auto;
+        text-align: center
+    }
+
+    #kontakt nav ul li a{
+
+        margin: 2em auto 0 auto;
+    }
+   
+    #oferta_animation{
+        display: none;
+    }
+    #oferta_mobile{
+        display: block;
+    }
+
+
+    .news_nav_link a{
+        color: transparent;
+        text-decoration: none;
+        text-transform: lowercase;
+        padding: 0 0 0 80px;
+        -webkit-transition: color 0.3s;
+        -moz-transition: color 0.3s;
+        -o-transition: color 0.3s;
+        transition: color 0.3s;
+    }   
+
+    .news_nav_link a:hover{
+        color: transparent;
+    }
+
+    .news{
+        margin-bottom: 0;
+    }
+
+    .post {
+        width: 100%;
+        text-align: center;
+    }
+    .news_titles .post {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+    .news_titles .post:last-child{
+        border-bottom: none;
+    }
+    .news_titles .post p, 
+    .news_titles .post h3 {
+        text-align: center;
+    }
+    .post .entry_content{
+        text-align: left;
+    }
+    .projectClient{
+        width:100%;
+        display:inline-block;
+        float:none;
+        max-width: 100%;
+        text-align: left;
+        padding:0;
+        margin: 0;
+    }
+
+    .projectDescription{
+        width:100%;
+        display:inline-block;
+        float:none;
+    }
+
+    .entry-content{
+        max-width: 100%;
+    } 
+}
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

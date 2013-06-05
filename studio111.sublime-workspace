@@ -1,0 +1,751 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"span",
+				"word-spacing"
+			],
+			[
+				"repeat",
+				"repeatDelay"
+			],
+			[
+				"rot",
+				"rotation"
+			],
+			[
+				"rota",
+				"rotateArrow"
+			],
+			[
+				"title",
+				"haxisTitle"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"tool",
+				"toolbar_bg"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"getFront",
+				"getFrontPageDescriptions"
+			],
+			[
+				"front",
+				"front_page_description"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"center",
+				"center_banner_container"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 9095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3894,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/boilerplate.css",
+			"settings":
+			{
+				"buffer_size": 22693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 6886,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 2751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content.php",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content-title.php",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content-page.php",
+			"settings":
+			{
+				"buffer_size": 731,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 112.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/archive.php",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/404.php",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/page-templates/full-width.php",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/page.php",
+		"/Users/jan/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/style.css",
+		"/Volumes/sandbox/root/skedx/app/views/reports/show.html.haml",
+		"/Volumes/sandbox/root/skedx/Gemfile",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/footer.php",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/css/boilerplate.css",
+		"/Volumes/sandbox/root/studio111/wp-content/themes/studio111/js/main.js",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_wall.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_threads.html.haml",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/reports.js",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/company.js",
+		"/Volumes/sandbox/root/skedx/app/views/wall/show.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/reports/_stats.html.haml",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/wall.js",
+		"/Users/jan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_quick_add_user.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_stats.html.haml",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/wall.css.scss",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/angularjs/resources/resources.js",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/bridge.css.scss",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_post.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_new_reply.html.haml",
+		"/Volumes/sandbox/root/skedx/app/controllers/api/v1/wall_messages_controller.rb",
+		"/Volumes/sandbox/root/skedx/app/views/api/v1/wall_messages/_message.json.rabl",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_hash_tag_filter.html.haml",
+		"/Volumes/sandbox/root/skedx/app/mailers/account_mailer.rb",
+		"/Volumes/sandbox/root/skedx/app/views/layouts/account_mailer.html.erb",
+		"/Volumes/sandbox/root/skedx/app/views/wall_mailer/new_wall_reply.html.erb",
+		"/Volumes/sandbox/root/skedx/app/views/wall_mailer/new_wall_post.html.erb",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_reply.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_new_post.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/companies/show.html.haml",
+		"/Volumes/sandbox/root/skedx/log/development.log",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/frameworks.js",
+		"/Volumes/sandbox/root/skedx/public/500.html",
+		"/Volumes/sandbox/root/skedx/app/views/account_mailer/new_account.html.erb",
+		"/Volumes/sandbox/root/skedx/app/controllers/password_resets_controller.rb",
+		"/Volumes/sandbox/root/skedx/app/mailers/wall_mailer.rb",
+		"/Volumes/sandbox/root/skedx/app/controllers/wall_messages_controller.rb",
+		"/Volumes/sandbox/root/skedx/config/routes.rb",
+		"/Volumes/sandbox/root/skedx/app/controllers/user_sessions_controller.rb",
+		"/Volumes/sandbox/root/skedx/app/views/layouts/email.html.erb",
+		"/Volumes/sandbox/root/skedx/app/views/account_mailer/change_password.html.erb",
+		"/Volumes/sandbox/root/skedx/config/locales/en.yml",
+		"/Volumes/sandbox/root/skedx/config/locales/en2.yml",
+		"/Volumes/sandbox/root/skedx/config/locales/simple_form.en.yml",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/account.js",
+		"/Volumes/sandbox/root/skedx/app/views/account/show.html.haml",
+		"/Volumes/sandbox/root/skedx/app/controllers/companies_controller.rb",
+		"/Volumes/sandbox/root/skedx/app/controllers/account_controller.rb",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/signing.js",
+		"/Volumes/sandbox/root/skedx/app/controllers/application_controller.rb",
+		"/Volumes/sandbox/root/skedx/config/environments/development.rb",
+		"/Volumes/sandbox/root/skedx/app/mailers/mail_preview.rb",
+		"/Users/jan/Downloads/basic-email-template/stylesheets/email.css",
+		"/Users/jan/Downloads/basic-email-template/basic.html",
+		"/Volumes/sandbox/root/skedx/app/views/user_sessions/new.html.erb",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/login_page.css.scss.erb",
+		"/Volumes/sandbox/root/skedx/config/environments/production.rb",
+		"/Volumes/sandbox/root/skedx/app/views/wall/manage_tags.html.haml",
+		"/Volumes/sandbox/root/skedx/app/views/wall/_edit_profile.html.haml",
+		"/Volumes/sandbox/root/skedx/Gemfile.lock",
+		"/Volumes/sandbox/root/skedx/Guardfile",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/layout.css.scss",
+		"/Volumes/sandbox/root/skedx/app/controllers/wall_controller.rb",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/_layout.scss",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/_profile.scss",
+		"/Volumes/sandbox/root/skedx/app/assets/javascripts/jquery.tagify.js",
+		"/Volumes/sandbox/root/skedx/app/views/layouts/bridge.html.haml",
+		"/Volumes/sandbox/root/skedx/.gitignore",
+		"/Volumes/sandbox/root/skedx/config/database.yml",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/_nav.scss",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/_wall.scss",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/bridge.scss",
+		"/Volumes/sandbox/root/skedx/app/assets/stylesheets/partials/_nav.scss",
+		"/Volumes/sandbox/root/skedx/config/application.rb",
+		"/Volumes/ego_eco/root/opencart/catalog/controller/checkout/simplecheckout_payment.php",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/checkout/checkout.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/common/success.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/javascript/script.js",
+		"/Volumes/ego_eco/root/opencart/catalog/controller/store/main.php",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/store/main.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/model/checkout/sales_promotion.php",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/product/product.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/controller/product/product.php",
+		"/Volumes/ego_eco/root/opencart/catalog/controller/common/home.php",
+		"/Volumes/ego_eco/root/opencart/catalog/model/catalog/news.php",
+		"/Volumes/ego_eco/root/opencart/admin/view/template/module/news/form.tpl",
+		"/Volumes/ego_eco/root/opencart/admin/view/template/module/news/list.tpl",
+		"/Volumes/ego_eco/root/opencart/admin/controller/module/news.php",
+		"/Volumes/ego_eco/root/opencart/admin/model/catalog/news.php",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/common/home.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/information/sitemap.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/common/header.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/language/polish/information/sitemap.php",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/common/footer.tpl",
+		"/Volumes/ego_eco/root/opencart/catalog/controller/information/sitemap.php",
+		"/Volumes/ego_eco/root/opencart/catalog/controller/common/footer.php",
+		"/Volumes/ego_eco/root/opencart/catalog/language/english/information/sitemap.php",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/stylesheet/cart.css",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/stylesheet/layout.css",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/stylesheet/header.css",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/stylesheet/features.css",
+		"/Volumes/ego_eco/root/opencart/catalog/view/theme/ego_eco/template/common/category_menu.tpl",
+		"/Users/jan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/ego_eco/root/opencart/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/sandbox/root/skedx/app",
+			"/Volumes/ego_eco/root/opencart/catalog/controller",
+			"/Volumes/ego_eco/root/opencart/admin",
+			"/Volumes/ego_eco/root/opencart/catalog"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"projectDe",
+			"480",
+			"article p",
+			"newer_",
+			"format",
+			"oa_tren",
+			"fixed_bo",
+			"curtain_cont",
+			"docHeight",
+			"project",
+			"post",
+			"480",
+			"accordionButton",
+			"transport",
+			"frameworks",
+			"query_string_parse",
+			"tagify",
+			"transport",
+			"ul",
+			"half",
+			"stat_value",
+			"nav",
+			"header",
+			"nav",
+			"header",
+			"curtain_con",
+			"p ",
+			"font-family",
+			"small",
+			"subtle",
+			"thread.tag_list",
+			"thread",
+			"overlay",
+			"over",
+			"hide",
+			"save",
+			"addUser",
+			"main",
+			"save",
+			".post",
+			"post",
+			"save",
+			"postTags",
+			"error",
+			".* ",
+			".*",
+			"newTag",
+			"\n		",
+			"file",
+			"clear",
+			"{",
+			" wall.tag",
+			" wall .tag",
+			".tag",
+			"available_tags.wa",
+			"basic",
+			"sign_in",
+			"vertia",
+			"content",
+			"post_",
+			"post_tag",
+			"opacity",
+			"includ",
+			"audienceCountParameters",
+			"audienceCoun",
+			"startTimer",
+			"handle",
+			"true",
+			"drop",
+			"handleTagSelect",
+			"handlePost",
+			"postTag",
+			"availableTag",
+			"availableTags",
+			"animat",
+			"handleTag",
+			"tagChecked",
+			"postTag",
+			"layout",
+			"height",
+			"padding",
+			"thin",
+			"json",
+			"multi",
+			"edit_pro",
+			"textarea",
+			"available",
+			"availab",
+			"overlay",
+			"textarea",
+			"post_button",
+			"input",
+			"edit_pro",
+			"box",
+			"main",
+			"tag",
+			"main_nam",
+			"total",
+			"load",
+			"image",
+			"/template/common/success.tpl",
+			"success",
+			"contact",
+			"submit",
+			"contact_submit",
+			"contact",
+			"success",
+			"Promot",
+			"price",
+			"special",
+			"model",
+			"load",
+			"id",
+			"price",
+			"getBanner",
+			"front_page_description",
+			"banner",
+			"nowy",
+			"214",
+			" rgb(82, 214, 255)",
+			"red",
+			"pink/red",
+			"pink",
+			"transparen",
+			"transparent",
+			"scroll",
+			"nav",
+			"center"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 9095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1482.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 3894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2180,
+								2180
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/boilerplate.css",
+					"settings":
+					{
+						"buffer_size": 22693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7649,
+								7649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7381.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 6886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3610.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 2751,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1820,
+										1826
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								1413,
+								1413
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "content.php",
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "content-title.php",
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								274
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "content-page.php",
+					"settings":
+					{
+						"buffer_size": 731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"development",
+				"config/environments/development.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true
+}
